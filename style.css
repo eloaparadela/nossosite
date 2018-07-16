@@ -76,9 +76,15 @@ div mae{
     margin: 0%;
     align-items: flex-start;
     opacity: 0.5;
-    filter: alpha(opacity=50);
-    
+    filter: alpha(opacity=50);    
 }
+
+#imagem1:hover{
+    opacity: 1;
+    filter: alpha(opacity=50);
+    transition-duration: 2s;
+}
+
 #sobre{
     color: azure;
     font-size: 25px;
@@ -128,6 +134,13 @@ span h2{
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
+#imagem2:hover{
+    opacity: 1;
+    filter: alpha(opacity=50);
+    transition-duration: 2s;
+}
+
 #Portfolio{
     color: azure;
     font-size: 25px;
@@ -172,6 +185,13 @@ span h2{
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
+#imagem3:hover{
+    opacity: 1;
+    filter: alpha(opacity=50);
+    transition-duration: 2s;
+}
+
 #informacao3{
     color: azure;
     font-size: 15px;
@@ -198,13 +218,21 @@ p{
     border: 0;
 
 }
-#redes{
-    width: 146px;
-    margin: 0;
+.redes{
+    width: 3%;
+    margin-top: 1%;
     padding: 0;
     align-items: center;
     justify-content: center;
-    padding-bottom: 7px;
+    padding-bottom: 1%;
+    opacity: 0.7;
+    filter: alpha(opacity=50);  
+}
+
+.redes:hover{
+    opacity: 1;
+    filter: alpha(opacity=50);
+    transition-duration: 1s;
 }
 
 @media (max-width:1230px){
