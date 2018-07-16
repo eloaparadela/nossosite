@@ -26,6 +26,9 @@ a{
 a:hover{
     color: rgba(230, 96, 114, 0.61);
     padding: 40px;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    transition: 2s;
 }
 /* iframe{
      object-fit: contain;
@@ -72,6 +75,8 @@ div mae{
     height:38%;
     margin: 0%;
     align-items: flex-start;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     
 }
 #sobre{
@@ -119,7 +124,9 @@ span h2{
     width: 50%;
     height: 44%;
     margin: 0%;
-    align-items: flex-end;  
+    align-items: flex-end; 
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 #Portfolio{
     color: azure;
@@ -162,6 +169,8 @@ span h2{
     width: 50%;
     height:37%;
     margin: 0%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 #informacao3{
     color: azure;
