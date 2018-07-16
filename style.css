@@ -273,6 +273,10 @@ p{
         padding-top: 25%;
     
     }
+    .redes{
+        width: 4.4%;
+        margin-right: 0.5%;
+    }
 
 }
 
@@ -305,6 +309,9 @@ p{
         padding-top: 24%;
     
     }
+    .redes{
+        width: 3.5%;
+    }
 }
 
 @media (max-width:981px){
@@ -328,7 +335,11 @@ p{
         padding-top: 24%;
     
     }
-
+    .redes{
+        width: 3.7%;
+        margin-right: 0.5%;
+    }
+    
 }
 
 @media (max-width:960px){
@@ -397,8 +408,13 @@ p{
      }
     #titulo{
         padding-top: 35%;
-    
+
     }
+    .redes{
+        width: 4.3%;
+        margin-right: 0.5%;
+    }
+
 }
 @media (max-width:730px){
     #imagem1{
@@ -437,6 +453,10 @@ p{
     #titulo{
         padding-top: 40%;
     }
+    .redes{
+        width: 5.4%;
+        margin-right: 0.5%;
+    }
 }
 @media (max-width:440px){
     a{
@@ -449,5 +469,9 @@ p{
     }
     #titulo{
         padding-top: 55%;
+    }
+    .redes{
+        width: 6.4%;
+        margin-right: 0.5%;
     }
 }
