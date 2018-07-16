@@ -221,7 +221,7 @@ p{
 .redes{
     width: 3%;
     margin-top: 1%;
-    padding: 0;
+    padding: 2px;
     align-items: center;
     justify-content: center;
     padding-bottom: 1%;
@@ -233,6 +233,13 @@ p{
     opacity: 1;
     filter: alpha(opacity=50);
     transition-duration: 1s;
+}
+
+.redes:hover{
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    animation: 6s ease;
 }
 
 @media (max-width:1230px){
